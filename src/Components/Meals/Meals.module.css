@@ -1,15 +1,16 @@
-.header{
+.header2{
  
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     position: fixed;
     z-index: 10;
-    width: 40%;
+    width: 60%;
     padding: 20px;
     border: 2px solid black;
     border-radius: 10px;
-    top: 25%;
-    left: 30%;
+    top: 80%;
+    left: 21%;
+    top: 53%;
     padding-left: 50px;
     /* padding-right: 20px; */
 
