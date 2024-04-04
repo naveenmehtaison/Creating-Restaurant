@@ -1,0 +1,19 @@
+.header{
+ 
+    color: white;
+    background-color: black;
+    position: fixed;
+    z-index: 10;
+    width: 40%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    top: 25%;
+    left: 25%;
+    padding-left: 50px;
+    /* padding-right: 20px; */
+
+
+    
+}
+

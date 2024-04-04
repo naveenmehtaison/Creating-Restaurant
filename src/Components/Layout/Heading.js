@@ -3,6 +3,7 @@ import React from "react"
 import HeaderCartButton from "./HeaderCartButton"
 import mealsImg from '../../Assets/meals.jpg'
 import classes from './Heading.module.css'
+import Restaurant_summary from "./Restaurant_summary"
 const Heading=(props)=>{
     return(
         <Fragment>
@@ -13,6 +14,7 @@ const Heading=(props)=>{
             </header>
             <div className={classes['main-image']}>
                 <img src={mealsImg}/>
+                <Restaurant_summary/>
             </div>
             
     
