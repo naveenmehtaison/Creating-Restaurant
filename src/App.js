@@ -3,13 +3,16 @@ import React from "react";
 import { Fragment } from "react";
 import Meals from "./Components/Meals/Meals";
 import Cart from "./Components/Cart/Cart";
+import { useState } from "react";
 function App() {
+  const [meal,setmeal]=useState(false)
+
   return (
     <Fragment>
-      <Heading/>
+      <Heading oncartClick2={()=>setmeal(true)}/>
       <Meals/>
       <main>
-        <Cart/>
+        {meal && <Cart closecart={()=>setmeal(false)}/>}
       </main>
       
     </Fragment>
