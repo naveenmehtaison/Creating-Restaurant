@@ -12,9 +12,8 @@ const Meals = () => {
         <div className={classes.header2}>
             {Dummy_arr.map((ele,i)=>(
                 <div key={i}>
-
                     <div>
-                        
+                    
                         <label htmlFor="input" style={{float:'right'}}>Amount</label>
                         <br></br>
                         <input id='input' style={{float:'right'}} type='number'/>
