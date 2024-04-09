@@ -19,8 +19,9 @@ const Meals = () => {
         const quantity = document.getElementById(`input${item.Name}`);
         console.log('j-')
         const ko = item.Price
-        item.Price=(parseInt(ko)*parseInt(quantity.value))
+        // item.Price=(parseInt(ko)*parseInt(quantity.value))
         Ctx.addItem(item)
+        item.quantity=quantity.value
         console.log(parseInt(quantity.value),'iii',item.Name,item.Price,item)
       
     }
